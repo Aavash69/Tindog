@@ -1,0 +1,198 @@
+#title{
+  background-color: #ff4c68;
+
+}
+
+
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding-top: 4%;
+  text-align: center;
+
+}
+
+.description{
+  width: 0%;
+
+}
+
+/* Heading */
+
+h1,h2,h3,h5{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.big-heading{
+
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+
+}
+
+.container-fluid{
+  padding: 3% 13% 10%;
+}
+
+
+.navbar{
+  padding: 0 0 0;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+
+  color: white;
+  font-size: 3rem;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+#Downloads{
+  padding-top: 10%;
+}
+
+.iphone{
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+#navigation{
+  font-size: 1rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.download-buttons{
+  margin: 5% 3% 5% 0;
+}
+
+.heading{
+
+  font-size: 1.5rem;
+  padding: 5%;
+}
+
+.logo{
+  padding: 5%;
+  color:#ef8172;
+}
+
+
+.description{
+  color: #8f8f8f;
+}
+
+.logo:hover{
+  color: #ff4c68;
+}
+
+h2{
+
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+
+#testimonials{
+  text-align: center;
+
+  background-color: #ef8172;
+  color: white;
+
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 3%;
+
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 20%;
+  margin: 10px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.card{
+  margin-top: 10%;
+}
+
+#top{
+  padding-right: 4%;
+}
+
+
+#cta{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+
+}
+
+.last-button{
+  margin-right: 3%;
+
+}
+
+.descr{
+
+  font-size: 3rem;
+  line-height: 1.5;
+  color:white;
+  padding-bottom: 5%;
+}
+
+footer{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5% 10%;
+}
+
+.connect:hover{
+  color: grey;
+}
+
+.price-text{
+  font-size: 3rem;
+}
+
+
+
+@media(max-width:1000px){
+  #features{
+    text-align: center;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
